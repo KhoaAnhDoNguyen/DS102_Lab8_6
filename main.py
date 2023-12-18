@@ -7,7 +7,7 @@ class_list = {'0': 'Female', '1': 'Male'}
 
 st.title('Gender detection based on Vietnamese full name')
 
-image = Image.open('vietnamese names.png')
+image = Image.open('Vietnamese-Feature-Images.png')
 st.image(image)
 
 input_ec = open('ec_vinames.pkl', 'rb')
